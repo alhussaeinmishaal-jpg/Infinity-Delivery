@@ -1,0 +1,49 @@
+name: infinity_delivery
+description: "A new Flutter project for Infinity Delivery."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # المكتبات الأساسية لـ Firebase
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.17.5
+
+  # مكتبة حفظ بيانات المستخدم (تسجيل الدخول المستمر)
+  shared_preferences: ^2.2.2 # تم إضافة هذه المكتبة بناءً على طلبك
+
+  # مكتبات تحسين تجربة المستخدم والروابط
+  animated_text_kit: ^4.2.2
+  url_launcher: ^6.3.2
+  shimmer: ^3.0.0 # تم إضافة المكتبة هنا لحل مشكلة الصفحة الرئيسية
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  # مكتبة توليد أيقونات التطبيق
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  # تعريف أصول التطبيق
+  assets:
+    - assets/icon/app_icon.png
+
+# إعدادات أيقونة لانشر التطبيق (Infinity Delivery Icon Settings)
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.png" 
+  # --- الحل الاحترافي لتمركز الشعار ---
+  adaptive_icon_background: "#000000" 
+  adaptive_icon_foreground: "assets/icon/app_icon.png"

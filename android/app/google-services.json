@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "957016718742",
+    "project_id": "infinity-delivery-6d973",
+    "storage_bucket": "infinity-delivery-6d973.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957016718742:android:f7a89171e1855f0b8ab1b7",
+        "android_client_info": {
+          "package_name": "com.example.infinity_delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957016718742-13lmg26mm38lhko4vpm5ulfvknkmsfni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyoyXhd3c8udh0TeTNIeh1kmggIfl45T4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957016718742-13lmg26mm38lhko4vpm5ulfvknkmsfni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
