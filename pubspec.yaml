@@ -18,12 +18,13 @@ dependencies:
   cloud_firestore: ^4.17.5
 
   # مكتبة حفظ بيانات المستخدم (تسجيل الدخول المستمر)
-  shared_preferences: ^2.2.2 # تم إضافة هذه المكتبة بناءً على طلبك
+  shared_preferences: ^2.5.5 # تم إضافة هذه المكتبة بناءً على طلبك
 
   # مكتبات تحسين تجربة المستخدم والروابط
   animated_text_kit: ^4.2.2
   url_launcher: ^6.3.2
   shimmer: ^3.0.0 # تم إضافة المكتبة هنا لحل مشكلة الصفحة الرئيسية
+  provider: ^6.1.5+1
 
 dev_dependencies:
   flutter_test:
